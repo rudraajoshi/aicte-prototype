@@ -88,7 +88,7 @@ export default function DashboardScreen({ onNavigate }: DashboardScreenProps) {
           </CardContent>
         </Card>
 
-        {/* <Card className="hover:shadow-md transition-shadow">
+        <Card className="hover:shadow-md transition-shadow">
           <CardContent className="p-5">
             <div className="flex items-center justify-between mb-2">
               <div className="w-10 h-10 rounded-lg bg-destructive/10 flex items-center justify-center">
@@ -98,7 +98,7 @@ export default function DashboardScreen({ onNavigate }: DashboardScreenProps) {
             <p className="text-2xl font-bold">{actionItems.length}</p>
             <p className="text-xs text-muted-foreground mt-1">Actions Required</p>
           </CardContent>
-        </Card> */}
+        </Card>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -185,7 +185,7 @@ export default function DashboardScreen({ onNavigate }: DashboardScreenProps) {
         </Card>
       </div>
 
-      {/* Action Required */}
+      /* {/* Action Required */}
       {actionItems.length > 0 && (
         <Card>
           <CardHeader>
@@ -219,7 +219,7 @@ export default function DashboardScreen({ onNavigate }: DashboardScreenProps) {
             ))}
           </CardContent>
         </Card>
-      )}
+      )} */
 
       {/* Recent Activity */}
       <Card>
